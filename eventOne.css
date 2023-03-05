@@ -1,0 +1,35 @@
+body{
+    background-image:url("backThree.png");
+    background-size:cover ;
+    font-family: "Lucida Sans Unicode",Helvetica, Arial, sans-serif ;
+}
+#section{
+    margin-left:175mm;
+    margin-top: 5mm;
+    color: darkred;
+    text-transform: uppercase;
+}
+.sport{
+    margin-left:-15mm;
+    margin-top:2mm;
+    border-radius: 10em;
+    width:60mm;
+    margin-bottom: 5mm;
+    color:chartreuse;
+    background-color: rgba(220, 20, 60, 0.734);
+}
+.sport:hover{
+    border-style:dotted;
+    border-color: chartreuse;
+}
+.dashboard{
+    border-top-left-radius: 5mm;
+    margin-top: -42em;
+    margin-left:35em;
+    width: 10em;
+    color:chartreuse;
+    background-color: rgba(220, 20, 60, 0.734);
+}
+.dashboard:hover{
+    text-transform:uppercase;
+}

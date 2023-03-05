@@ -1,0 +1,13 @@
+body{
+    background-color: darkseagreen;
+    text-align: center;
+    margin-top: 20mm;
+}
+p{
+font-size: larger;
+color: darkblue;
+}
+.login{
+    background-color: darkblue;
+    color: darkseagreen;
+}

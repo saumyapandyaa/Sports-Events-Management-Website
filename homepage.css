@@ -1,0 +1,139 @@
+.home{
+    background-color: rgba(0, 0, 0, 0.2);
+    width:500px;
+    height:110px;
+    margin-left: 470px;
+
+   }body{
+    margin-top: -30px;
+    margin-left: -20px;
+    background-image: url("BG1.jpeg");
+     background-size: cover;
+     overflow: hidden;
+     vertical-align: auto;
+     
+   }
+   
+   
+   /* The side navigation menu */
+   .sidebar {
+       width: 150px;
+       background-color: #625a59bd;
+       position: fixed;
+       height:110%;
+       overflow: auto;
+       padding:0;
+       margin:0;
+   
+     }
+     
+     /* Sidebar links */
+     .sidebar a {
+       display: block;
+       color: azure;
+       padding: 20px;
+       text-decoration: none;
+       
+     }
+     
+     /* Active/current link */
+     .sidebar a.active {
+       background-color: rgba(245, 245, 220, 0.833);
+       color: rgb(27, 15, 15);
+     }
+     
+     /* Links on mouse-over */
+     .sidebar a:hover:not(.active) {
+       background-color: beige;
+       color: black;
+     }
+     
+     /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+     div.content {
+       margin-left: 150px;
+       padding: 1px 16px;
+       height: 1000px;
+       margin-top: 150px;
+     }
+     
+     /* On screens that are less than 700px wide, make the sidebar into a topbar */
+     @media screen and (max-width: 700px) {
+       .sidebar {
+         width: 100%;
+         height: 100%;
+         position: relative;
+       }
+       .sidebar a {float: left;}
+       div.content {margin-left: 0;}
+     }
+     
+     /* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+     @media screen and (max-width: 400px) {
+       .sidebar a {
+         text-align: center;
+         float: none;
+       }
+     }
+     
+     h1{
+       margin: 0%;
+       padding: 0%;
+       text-align: center;
+       color: azure;
+       float: inherit;
+       padding-top: 10mm;
+       vertical-align: text-top;
+     }
+   
+     .contact-info{
+       display: flex;
+       width: 100%;
+       height: 50%;
+       max-width: 1200px;
+       align-items: center;
+       justify-content: center;
+       padding: 0 20px;
+       
+   }
+   
+   .card{
+       
+       padding: 0 20px;
+       margin: 0 10px;
+       width: calc(33% - 20px);
+       height: 200px;
+       display: flex;
+       flex-direction: column;
+       justify-content: content;
+       align-items: center;
+       color: azure;
+       background-color: rgba(0, 0, 0, 0.2);
+   
+   }
+   #submit2{
+     background-color: beige;
+   }
+   #submit2:hover{
+     background-color:azure;
+   }
+   li{
+     font-size: 20px;
+     text-align: left;
+   
+   }
+   
+   p1{
+     font-size: 22px;
+   }
+   
+   .logoutLblPos{
+   
+     position:fixed;
+     right:10px;
+     top:5px;
+     
+     
+   }
+   .card-info fas fa-map-marker-alt {
+     size: 10px;
+   }

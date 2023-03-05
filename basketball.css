@@ -1,0 +1,45 @@
+
+body{
+    align-self: center;
+    align-items: center;
+    color:azure ;
+    background-image: url("basketball.png");
+    image-rendering:crisp-edges ;
+    background-size:cover;
+    position:relative;
+    padding:30px;
+    margin-left: 450px;
+    margin-right:-20;
+    margin-top: 25px;
+}
+label{
+    
+    color:azure;
+    font-size: smaller;
+}
+.btn{
+background-color:azure;
+  /*  color:darkblue;*/
+}
+.btn:hover{
+    background-color:rgba(88, 100, 100, 0.938);
+}
+button{
+    margin-top: 10mm;
+    color:rgba(0, 45, 142, 0.553);
+}
+select{
+    font-size: smaller;
+    color:rgba(69, 71, 75, 0.847);
+}
+/*.form-group{
+    margin-top:7mm;
+}*/
+h2{
+    margin-top: 3mm ;
+    margin-left: 20mm;
+    margin-right:20mm;  
+}
+.login{
+    background: rgba(81, 81, 86, 0.593);
+}

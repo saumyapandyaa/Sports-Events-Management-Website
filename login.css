@@ -1,0 +1,43 @@
+body{
+    background-image: url("BG1.jpeg");
+    background-size: cover;
+    background-position: center;
+   
+
+}
+
+
+.card{
+    background-color: rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+    font-size: larger;
+}
+
+p{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+
+label {
+    color: azure;
+}
+
+.form-control{
+    background-color: azure;
+}
+
+.btn{
+    outline: auto;
+    outline-style: auto;
+    outline-color: azure;
+    padding: 10px 24px;
+    color: azure;
+
+}
+
+h2{
+    color: azure;
+}
+.sign {
+    color:ghostwhite;
+}
